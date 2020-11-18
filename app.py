@@ -24,9 +24,6 @@ LOGGED_IN = False
 
 def init(userId="me", tokenFile="token.json", credentialsFile="credentials.json", _raiseException=True):
 
-    global SERVICE_GMAIL, EMAIL_ADDRESS, LOGGED_IN
-
-
     EMAIL_ADDRESS = False
     LOGGED_IN = False
 
